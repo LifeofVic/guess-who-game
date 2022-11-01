@@ -9,14 +9,14 @@ function onReady() {
 	randomPerson(); //checks if there is a random name console.log at each page refreshed. 
 }
 
-let randomPerson;
+let randomPersonSelected;
 
 function randomPerson(min = 0, max = 6) {
 	let index = Math.floor(Math.random() * (1 + max - min) + min);
 
-	randomPerson = people[index].name;
+	randomPersonSelected = people[index].name;
 
-	console.log('The name of the selectedRandomPerson is: ', randomPerson);
+	console.log('The name of the selectedRandomPerson is: ', randomPersonSelected);
 
 
 }
