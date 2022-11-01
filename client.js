@@ -7,3 +7,6 @@ function onReady() {
 	console.log('We are in Jquery! 🙏');
 
 }
+
+
+
